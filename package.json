@@ -1,0 +1,39 @@
+{
+  "name": "gulp4",
+  "version": "1.0.0",
+  "description": "Практика в сборке проекта через gulp4 :)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrrrnikitin/Gulp4.git"
+  },
+  "keywords": [
+    "gulp4"
+  ],
+  "author": "Petr Nikitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrrrnikitin/Gulp4/issues"
+  },
+  "homepage": "https://github.com/petrrrnikitin/Gulp4#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.2.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "gulp-uglify-es": "^2.0.0"
+  }
+}
